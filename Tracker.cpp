@@ -136,7 +136,7 @@ ostream& operator <<(ostream& s,array<T>& a)
 	}
 	return s;
 }
-int main()
+/*int main()
 {
 	clock_t tStart1 = clock();
 	int a1[20][20][20][20];int k2=1;
@@ -188,5 +188,5 @@ int main()
 		}
 	}
 	printf("Time taken: %.2fs\n", (double)(clock() - tStart)/CLOCKS_PER_SEC);	
-    return 0;
-}
+    return 0;//both the running times are comparable
+}*/
